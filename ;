@@ -1,0 +1,64 @@
+# ==== Format ====
+# ${feature}: nameを追加
+#
+# てst
+
+# ==== Prefix ====
+# feat     新規機能、新規ファイル追加
+# change   仕様変更による機能修正
+# test     テスト追加や間違っていたテストの修正
+# delete   ファイル削除
+# fix      バグ修正
+# style    空白、セミコロン、行、コーディングフォーマットなどの修正
+# refactor 既存の振る舞いを変更しないコード改善
+# perf     パフォーマンスを向上させるコード変更
+# chore    ビルド、補助ツール、ライブラリ関連、開発環境変更
+# docs     ドキュメントのみ修正
+
+# ==== Emojis ====
+# 🔖  :bookmark: バージョンタグ（Version Tag）
+#
+# ※リリースでバージョンタグを付ける際に使用
+
+# ==== Rules ====
+# 1. コミット本文を記述する場合は、概要とコミット本文の間に空行1行あける
+# 2. 概要は50文字以下で記述する
+# 3. 概要の末尾はピリオドで終わらない
+# 4. 概要は命令法で記述する
+# 5. 本文は72文字で改行する
+# 6. 本文ではhowではなくwhatとwhyを記述する
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   .gitmessage
+#	new file:   JobDocument-iot-job01.txt
+#	new file:   JobDocument-iot-job02.txt
+#	new file:   clipState.tsx
+#	new file:   clipUsageAmountText.tsx
+#	new file:   clipVideoModalOpenButton.tsx
+#	new file:   desc-scheduled-jobs.md
+#	new file:   emptyBracket.json
+#	new file:   example.json
+#	new file:   failure-job.json
+#	new file:   failure-job2.json
+#	new file:   failure-script.sh
+#	new file:   god/src/features/edge/EdgeSearchBar.tsx
+#	new file:   iot-job01-files/distfile.bin
+#	new file:   iot-job02-files/distfile.bin
+#	new file:   job-config.json
+#	new file:   job-document.json
+#	new file:   job-document2.json
+#	new file:   job.json
+#	new file:   jobs/job-install.json
+#	new file:   non-existence-job.json
+#	new file:   nothing.json
+#	new file:   reboot-job.json
+#	new file:   retry-config.json
+#	new file:   src/models/edge.ts
+#	new file:   test.rb
+#	new file:   videoclipdialog.tsx
+#
