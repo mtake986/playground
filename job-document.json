@@ -1,0 +1,8 @@
+{
+  "operation": "update",
+  "update": {
+    "source": "s3://my-bucket/my-update-file.bin",
+    "destination": "/tmp/my-update-file.bin",
+    "action": "install"
+  }
+}

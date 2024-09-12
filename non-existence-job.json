@@ -1,0 +1,6 @@
+{
+  "operation": "run",
+  "args": {
+    "script": "https://test-masa.s3.amazonaws.com/non-existent-script.sh"
+  }
+}

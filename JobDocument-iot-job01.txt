@@ -1,0 +1,4 @@
+{
+    "jobType": "fetchFile",
+    "fileUrl": "${aws:iot:s3-presigned-url:https://s3.amazonaws.com/test-masa/iot-job01-files/distfile.bin}"
+}

@@ -1,0 +1,66 @@
+{
+   "abortConfig": { 
+      "criteriaList": [ 
+         { 
+            "action": "string",
+            "failureType": "string",
+            "minNumberOfExecutedThings": 1,
+            "thresholdPercentage": 1
+         }
+      ]
+   },
+   "description": "string",
+   "destinationPackageVersions": [ "string" ],
+   "document": "string",
+   "documentParameters": { 
+      "string" : "string" 
+   },
+   "documentSource": "string",
+   "jobExecutionsRetryConfig": { 
+      "criteriaList": [ 
+         { 
+            "failureType": "string",
+            "numberOfRetries": 1
+         }
+      ]
+   },
+   "jobExecutionsRolloutConfig": { 
+      "exponentialRate": { 
+         "baseRatePerMinute": 1,
+         "incrementFactor": 1,
+         "rateIncreaseCriteria": { 
+            "numberOfNotifiedThings": 1,
+            "numberOfSucceededThings": 1
+         }
+      },
+      "maximumPerMinute": 1
+   },
+   "jobTemplateArn": "string",
+   "namespaceId": "string",
+   "presignedUrlConfig": { 
+      "expiresInSec": 1,
+      "roleArn": "string"
+   },
+   "schedulingConfig": { 
+      "endBehavior": "string",
+      "endTime": "string",
+      "maintenanceWindows": [ 
+         { 
+            "durationInMinutes": 1,
+            "startTime": "string"
+         }
+      ],
+      "startTime": "2024-6-15T19:00:00Z"
+   },
+   "tags": [ 
+      { 
+         "Key": "string",
+         "Value": "string"
+      }
+   ],
+   "targets": [ "string" ],
+   "targetSelection": "string",
+   "timeoutConfig": { 
+      "inProgressTimeoutInMinutes": 1
+   }
+}

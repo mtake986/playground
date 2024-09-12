@@ -1,0 +1,5 @@
+{
+  "operation": "install",
+  "s3Url": "s3://test-masa/iot-job01-files/distfile.bin",
+  "checksum": "YOUR_FILE_CHECKSUM"
+}

@@ -1,0 +1,12 @@
+{
+  "operation": "install",
+  "commands": [
+    {
+      "name": "download",
+      "action": "wget",
+      "args": [
+        "https://s3.amazonaws.com/test-masa/non-existent-file.bin"
+      ]
+    }
+  ]
+}

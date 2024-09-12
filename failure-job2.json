@@ -1,0 +1,13 @@
+{
+  "operation": "install",
+  "s3Url": "s3://test-masa/firmware-file.bin",
+  "commands": [
+    {
+      "name": "download",
+      "action": "wget",
+      "args": [
+        "https://s3.amazonaws.com/test-masa/non-existent-file.bin"
+      ]
+    }
+  ]
+}

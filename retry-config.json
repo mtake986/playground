@@ -1,0 +1,11 @@
+{
+  "criteriaList": [
+    {
+      "failureType": "FAILED",
+      "action": "RETRY",
+      "failureReason": null,
+      "numberOfRetries": 3,
+      "minNumberOfRetries": 1
+    }
+  ]
+}
